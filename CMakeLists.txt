@@ -49,4 +49,4 @@ set_property(TARGET Gordon1966 PROPERTY AUTOGEN_BUILD_DIR ${CMAKE_BINARY_DIR}/CM
 
 ##### Link Libraries #####
 
-target_link_libraries(Gordon1966 FEBio::FECore)
+target_link_libraries(Gordon1966 FEBio::FECore FEBio::FEBioMech)
